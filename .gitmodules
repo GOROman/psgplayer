@@ -1,3 +1,6 @@
 [submodule "portaudio"]
 	path = portaudio
 	url = git@github.com:PortAudio/portaudio.git
+[submodule "emu2149"]
+	path = emu2149
+	url = git@github.com:digital-sound-antiques/emu2149.git
