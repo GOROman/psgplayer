@@ -46,10 +46,10 @@ int main() {
     while(1) {
 
         u_int16_t a = DATA[data%8];
-        u_int16_t b = DATA[data%8] + detune % 16;
-        u_int16_t c = DATA[data%8] - detune % 16;
-        detune = (data / 128) % 8;
-        env    = (data / 16) & 0x0f;
+        u_int16_t b = DATA[data%8] + detune;
+        u_int16_t c = DATA[data%8] - detune;
+        detune = (data / 16) % 8;
+        env    = (data / 32) & 0x0f;
         psg->write(6,data /8);    // Noise
         psg->write(11,0x00);
         psg->write(12,0x04);
