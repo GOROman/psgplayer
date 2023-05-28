@@ -1,0 +1,30 @@
+site_name: Portable Simple PSGPlayer
+copyright: Copyright &copy; 2023 GOROman
+repo_url: https://github.com/GOROman/psgplayer
+repo_name: GOROman/psgplayer
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.integrate
+    - toc.follow
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+  font:
+    text: Inter
+    monospace: Fira Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GOROman
+
+
